@@ -1,0 +1,69 @@
+.card {
+    width: 164px;
+    height: 299px;
+    background: #FFFFFF;
+    box-shadow: 0 0 4px 0 rgba(0,0,0,0.08);
+    border-radius: 3px;
+    margin: 7.5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.card-title {
+    height: 40px;
+    width: 148px;
+    font-family: SFProText-Regular;
+    font-size: 14px;
+    color: #000000;
+    text-align: center;
+    line-height: 20px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.card-description {
+    height: 19px;
+    width: 132px;
+    font-family: SFProText-Semibold;
+    font-size: 16px;
+    color: #0070E0;
+    display: inline-block;
+}
+
+.card-image {
+    width: 148px;
+    height: 148px;
+}
+
+.card-button {
+    width: 132px;
+    height: 32px;
+    background: #FFFFFF;
+    border: 1px solid #0070E0;
+    border-radius: 3px;
+    font-family: SFProText-Regular;
+    font-size: 13px;
+    color: #0070E0;
+    text-align: center;
+}
+
+.card-amount {
+    flex-wrap: wrap;
+}
+
+.card-minus-button, .card-plus-button {
+    height: 32px;
+    width: 32px;
+    font-family: SFProText-Medium;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: -0.34px;
+    text-align: center;
+    background: #0070E0;
+    border-radius: 3px;
+}
+
+.card-product-amount {
+    display: inline-block;
+    width: 40%
+}

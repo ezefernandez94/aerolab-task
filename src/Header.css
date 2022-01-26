@@ -1,0 +1,64 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-and-name {
+    display: table;
+    padding: 10px;
+}
+
+.header-logo {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.header-brand {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 5px;
+    font-family: SFProText-Semibold;
+    font-size: 17px;
+    color: #006DE3;
+    letter-spacing: -0.41px;
+    line-height: 20px;
+}
+
+.cart-and-value {
+    padding: 10px;
+    display: table;
+}
+
+.header-cart-price {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 5px;
+    font-family: SFProText-Semibold;
+    font-size: 17px;
+    color: #006DE3;
+    letter-spacing: -0.41px;
+    line-height: 20px;
+}
+
+.header-cart {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.header-cart-amount {
+    z-index: 100;
+    position: absolute;
+    right: 8px;
+    top: 2px;
+
+    font-family: SFProText-Bold;
+    font-size: 8px;
+    color: #FFFFFF;
+    letter-spacing: -0.19px;
+    background-color: #006DE3;
+
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    text-align: center;
+}

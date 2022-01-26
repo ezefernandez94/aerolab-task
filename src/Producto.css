@@ -1,0 +1,28 @@
+.productos-inicial {
+    display: flex;
+    justify-content: center;
+    padding: 7.5px;
+    flex-wrap: wrap;
+    background-color:cornsilk;
+}
+
+.mas-productos {
+    font-family: SFProText-Medium;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: -0.34px;
+    text-align: center;
+    background: #0070E0;
+    border-radius: 3px;
+    width: 176px;
+    height: 40px;
+}
+
+.almacen {
+    width: 100%;
+    font-family: HelveticaNeue-Medium;
+    font-size: 24px;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: left;
+}
