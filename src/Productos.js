@@ -1,4 +1,5 @@
 import axios from 'axios';
+import moment from 'moment';
 import React, { Component } from 'react';
 
 import './Producto.css'
@@ -50,8 +51,15 @@ class Productos extends Component {
     }
 
     componentDidMount(){
-
-        axios.get('https://challenge-api.aerolab.co/slow/products')
+        let limitDate = moment().subtract(1,'months').format();
+        //console.log(limitDate);
+        axios.get('https://challenge-api.aerolab.co/slow/products', {
+            params: {
+                where: [
+                    JSON.stringify(['updatedAt', '>', limitDate])
+                ] 
+            }
+        })
         .then(productsResponse => {
             if( productsResponse.status === 200 && productsResponse !== null ){
                 console.log(productsResponse);

@@ -39,7 +39,7 @@ class Card extends Component{
                     <div className='card-content'>
                         <img className='card-image' src={this.props.img} alt={this.props.name}/>
                         <div className='card-title'>{this.props.name}</div>
-                        <div className='card-description'>${this.props.price} (USD {(this.props.price / this.props.dolar).toFixed(2)})</div>
+                        <div className='card-description'>${this.props.price} (U$D {(this.props.price / this.props.dolar).toFixed(2)})</div>
                         <button className='card-button' onClick={this.addToCart}>Agregar al Carrito</button>
                     </div>
                 </div>
@@ -50,7 +50,7 @@ class Card extends Component{
                     <div className='card-content'>
                         <img className='card-image' src={this.props.img} alt={this.props.name}/>
                         <div className='card-title'>{this.props.name}</div>
-                        <div className='card-description'>${this.props.price} (USD {(this.props.price / this.props.dolar).toFixed(2)})</div>
+                        <div className='card-description'>${this.props.price} (U$D {(this.props.price / this.props.dolar).toFixed(2)})</div>
                         <div className='card-amount'>
                             <button className='card-minus-button' onClick={this.drawFromCart}>-</button>
                             <span className='card-product-amount'>{this.state.amount}</span>
